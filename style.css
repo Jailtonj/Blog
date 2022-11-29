@@ -16,6 +16,8 @@ header {
     background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
     width: 100%;
     height: 200px;
+
+    margin-bottom: 50px;
 }
 
 /* fonts */
@@ -33,21 +35,25 @@ h1, h2, p, article {
 .header {
     display: flex;
     padding-top: 43px;
-    
+    justify-content: space-between;
 }
 
 .header h1 {
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
     margin-left: 20px;
     color: #FFFFFF;
 }
 
 .header h2 {
-    padding-left: 165px;
     font-size: 24px;
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin-right: 20px;
 }
-
 
 input {
     width: 90%;
@@ -73,17 +79,23 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 #app {
-    position: absolute;
     width: 90%;
-    height: 235px;
     top: 250px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    
+    margin-bottom: 25px;
+}
+
+.heart {
+    display: flex;
+}
+
+.heart img {
+    margin-left: auto;
+    padding-bottom: 20px;
 }
 
 .space {
@@ -111,4 +123,116 @@ section {
     font-size: 14px;
     line-height: 26px;
     color: #717171;
+}
+
+@media (min-width: 800px) {
+    #cards {
+        padding: 0;
+    }
+
+    main {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    header {
+        background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+        width: 100%;
+        height: 200px;
+    
+        margin-bottom: 50px;
+    }
+
+    .responsive {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+    
+    .header {
+        display: flex;
+        padding-top: 43px;
+        justify-content: space-between;
+    }
+    
+    .header h1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    
+    .header h2 {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    input {
+        height: 40px;
+        margin-top: 53px;
+        color: white;
+        background: url(./picture/lupa.svg) 10px 12px
+        no-repeat;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    
+    ::placeholder{
+        color: white;
+        opacity: 0.5;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #app {
+        width: 90%;
+        top: 250px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .heart {
+        display: flex;
+    }
+    
+    .heart img {
+        margin-left: auto;
+        padding-bottom: 20px;
+    }
+    
+    .space {
+        padding: 15px;
+    }
+    
+    .space article {
+        color: #717171;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 27px;
+    }
+    
+    .space h2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1A202C;
+        margin-bottom: 9px;
+    }
+    
+    .space p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #717171;
+    }
 }

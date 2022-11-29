@@ -13,32 +13,37 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <h1>Codelândia</h1>
-            <h2>blog</h2>
-        </div>
-        <div class="search">
-            
-            <form id="form" role="search">
-                <input type="search" id="query" name="q"
-                 placeholder="Pesquisar no blog"
-                 aria-label="Search through site content">
-            </form>
-        </div>
-    </header>
-    <section>
-        <div id="app">
-            <div class="space">
-                <div>
-                <article>02 de jul, 2021</article>
-                <img src="./picture/heart.svg" alt="">
-                </div>
-                <h2>Agora é oficial: o Windows 11 está vindo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
-                <main id="cards"></main>
+        <div class="responsive">
+            <div class="header">
+                <h1>Codelândia</h1>
+                <h2>blog</h2>
+            </div>
+            <div class="search">
+                
+                <form id="form" role="search">
+                    <input type="search" id="query" name="q"
+                    placeholder="Pesquisar no blog"
+                    aria-label="Search through site content">
+                </form>
             </div>
         </div>
-    </section>
-    <script src="./main.js"></script>
+    </header>
+    <main>
+        <section> 
+                <div id="app">
+                    <div class="space">
+                        <div class="heart">
+                        <article>02 de jul, 2021</article>
+                        <img src="./picture/heart.svg" alt="">
+                        </div>
+                            <h2>Agora é oficial: o Windows 11 está vindo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                        
+                    </div>
+                </div>
+                <main id="cards"></main>
+        </section>
+        <script src="./main.js"></script>
+    </main>
 </body>
 </html>
