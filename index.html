@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap" rel="stylesheet">
+
     <title>Blog</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -14,6 +18,7 @@
             <h2>blog</h2>
         </div>
         <div class="search">
+            
             <form id="form" role="search">
                 <input type="search" id="query" name="q"
                  placeholder="Pesquisar no blog"
@@ -21,15 +26,19 @@
             </form>
         </div>
     </header>
-
-    <div id="app">
-        <article>02 de jul, 2021</article>
-        <h2>Agora é oficial: o Windows 11 está vindo</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
-
-        <main id="cards"></main>
-    </div>
-
+    <section>
+        <div id="app">
+            <div class="space">
+                <div>
+                <article>02 de jul, 2021</article>
+                <img src="./picture/heart.svg" alt="">
+                </div>
+                <h2>Agora é oficial: o Windows 11 está vindo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                <main id="cards"></main>
+            </div>
+        </div>
+    </section>
     <script src="./main.js"></script>
 </body>
 </html>
