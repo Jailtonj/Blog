@@ -1,3 +1,4 @@
+// Search Bar
 const f = document.getElementById('form');
 const q = document.getElementById('query');
 const google = 'https://www.google.com/search?q=site%3A+';
@@ -11,7 +12,7 @@ function submitted(event) {
 }
 f.addEventListener('submit', submitted);
 
-
+// Criação dos cartões de notícias
 let delay = -0.4;
 function createCard(title, date, content) {
     delay = delay + 0.4;
