@@ -35,7 +35,7 @@ Desafio que tinha como meta a construção de um blog para treinar o conheciment
 
 ## 🌐 Deploy do projeto
 
-- <a href="https://jailtonj.github.io/DESAFIO-1---Blog/"  target="_blank">Acesse aqui</a>
+- <a target="_blank" href="https://jailtonj.github.io/DESAFIO-1---Blog/">Acesse aqui</a>
 
 ## 🔖 Layout
 
