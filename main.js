@@ -1,3 +1,9 @@
+const chk = document.getElementById('chk')
+
+chk.addEventListener('click', () => {
+    document.body.classList.toggle('dark')
+})
+
 // Search Bar
 const f = document.getElementById('form');
 const q = document.getElementById('query');
@@ -11,6 +17,10 @@ function submitted(event) {
   win.focus();
 }
 f.addEventListener('submit', submitted);
+
+// Animação do coração
+
+
 
 // Criação dos cartões de notícias
 let delay = -0.4;
