@@ -1,3 +1,4 @@
+// Mudança de Tema
 const chk = document.getElementById('chk')
 
 chk.addEventListener('click', () => {
